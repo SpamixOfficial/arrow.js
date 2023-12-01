@@ -5,7 +5,7 @@ function help() {
     process.exit(0);
 }
 
-function filter_args(required_args = 1, auto_help=true, tooFewArgsMessage = undefined) {
+function filter_args(required_args = 1, auto_help=true, tooFewArgsMessage) {
     let argslist = process.argv.slice(2);
     let returnlist = [];
     let argument;
