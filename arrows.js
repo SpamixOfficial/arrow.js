@@ -1,6 +1,6 @@
 let arrow_test = (name, age) => { return `Hello ${name}, you stupid piece of ${age}-year old shit >:(`; }
 
-function help() {
+let help = () => {
     console.log("\n| arrows.js Help\t\t\t\t|\n-------------------------------------------------\nUSAGE: arrows.js [NAME] [AGE] [OPTIONS]\nOptions:\n\t-h, --help: Print this message and exit.\n\n\nSpamixOfficial 2023\n");
     process.exit(0);
 }
